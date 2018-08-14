@@ -8,8 +8,4 @@
     <servlet-name>ViewServlet</servlet-name>
     <servlet-class>com.bdi.erp.servlet.ViewServlet</servlet-class>
   </servlet>
-  <servlet-mapping>
-    <servlet-name>ViewServlet</servlet-name>
-    <url-pattern>/views/*</url-pattern>
-  </servlet-mapping>
 </web-app>
