@@ -10,7 +10,7 @@
 
 <body>
 	<div class="container">
-		<h4>유저리스트</h4>
+		<h4>테스트리스트</h4>
 		<table class="table table-hover table-bordered">
 			<thead>
 				<tr>

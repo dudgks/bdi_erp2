@@ -12,8 +12,11 @@
 			if (smenu.equals("userList")) {
 				rightUrl += "/userinfo/userList.jsp";
 			}
+			if(smenu.equals("testList")){
+				rightUrl += "/userinfo2/testList.jsp";
+			}
 		}
-	}
+	} 
 %>
 <body>
 	<div class="wrapper">
@@ -51,13 +54,10 @@
             var menuObj = document.querySelector('#' + menu);
             menuObj.classList.add('active');
             var smenu = '<%=smenu%>';
-					if (menu != 'null') {
-						document.querySelector('#' + menu + '>a').setAttribute(
-								'aria-expanded', true);
-						document.querySelector('#' + menu + '>ul')
-								.setAttribute('aria-expanded', true);
-						document.querySelector('#' + menu + '>ul').classList
-								.add('in');
+					if (smenu != 'null') {
+						document.querySelector('#' + menu + '>a').setAttribute('aria-expanded', true);
+						document.querySelector('#' + menu + '>ul').setAttribute('aria-expanded', true);
+						document.querySelector('#' + menu + '>ul').classList.add('in');
 					}
 				});
 	</script>

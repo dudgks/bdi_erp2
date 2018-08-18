@@ -56,8 +56,8 @@ DBConnection.close();
 		</tbody>
 	</table>
 	<div class="cust-button-div">
-		<button type="button">사원등록</button>
-		<button type="button">사원삭제</button>
+		<button type="button" onclick="">사원등록</button>
+		<button type="button" onclick="">사원삭제</button>
 	</div>
 </div>
 <script>
