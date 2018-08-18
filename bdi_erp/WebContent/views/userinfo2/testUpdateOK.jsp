@@ -14,6 +14,7 @@ String tNo= request.getParameter("tNo");
 String tId= request.getParameter("tId");
 String tPwd= request.getParameter("tPwd");
 String tBirth= request.getParameter("tBirth");
+tBirth= tBirth.replaceAll("-","");
 String tContent= request.getParameter("tContent");
 
 out.print(tNo);

@@ -33,7 +33,7 @@
 	%>
 		<form action="<%=rPath%>/views/userinfo2/testUpdateOK.jsp" onsubmit="return checkVal()">
 			<fieldset>
-				<legend>유저등록</legend>
+				<legend>유저수정</legend>
 				<table class="table table-bordered table-hover">
 				<tr>
 					<th>번호</th>
@@ -49,7 +49,7 @@
 					</tr>
 					<tr>
 						<th>생년월일</th>
-						<td><input type name="tBirth"></td>
+						<td><input type="date" name="tBirth"></td>
 					</tr>
 					<tr>
 						<th>설명</th>
