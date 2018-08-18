@@ -18,7 +18,7 @@
 					</tr>
 					<tr>
 						<th>생년월일</th>
-						<td><input type name="tBirth"></td>
+						<td><input type="date" name="tBirth"></td>
 					</tr>
 					<tr>
 						<th>설명</th>

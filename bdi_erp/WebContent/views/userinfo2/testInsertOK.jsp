@@ -14,6 +14,7 @@
 String tId = request.getParameter("tId");
 String tPwd = request.getParameter("tPwd");
 String tBirth = request.getParameter("tBirth");
+tBirth= tBirth.replaceAll("-","");
 String tContent = request.getParameter("tContent");
 //config
 //db.properties
